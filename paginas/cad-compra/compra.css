@@ -1,0 +1,118 @@
+.pagina{
+    width: 78.6vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pagina header{
+    font-family: arial;
+}
+
+.pagina form{
+    width: 90%;
+    padding: 10px;
+    
+}
+
+.pagina .relatorio{
+    width: 90%;
+    padding: 20px;
+    height: 35%;
+  
+}
+
+.pagina.inputs{
+    width: 98%;
+    height: 82%;
+    padding: 1%;
+    border: 1px blue solid;
+
+}
+.pagina.controles{
+    width: 100%;
+    height: 10%;
+    border: 1px orange solid;
+}
+.inputs input{
+    width:200px ;
+    padding: 5px;
+    border-radius: 1px #cdcdcd solid;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.inputs select{
+    width:200px ;
+    padding: 5px;
+    border-radius: 1px #534f4f solid;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px; 
+}
+.controles button{
+    width: 150px;
+    padding: 5px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.salvar{
+    background-color: rgb(47, 173, 49);
+    transition-duration: 0.2s;
+}
+.salvar:hover{
+    background-color: darkgreen;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.cancelar{
+    background-color: rgb(154, 46, 46);
+    transition-duration: 0.2s;
+}
+.cancelar:hover{
+    background-color: darkred;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.relatorio{
+    width: 90%;
+    height:35% ;
+    padding: 10px;
+}
+.relatorio h1{
+    font-family:arial; 
+}
+
+.relatorio table{
+    width:100%;
+    font-family:arial;
+}
+table th{
+    border-bottom:1px #b8b6b6 solid;
+    text-align: left;
+}
+table td{
+    border-bottom: 1px #dddbdb solid;
+    bottom:1px rgb(135, 230, 135) solid ;
+}
+
+button{
+    width: 150px;
+    padding: 5px;
+    background-color:  rgb(144, 41, 41);
+    color:#dddbdb;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+   
+
+button:hover{
+background-color: darkred;
+transition-duration: 0.2s;
+cursor: pointer;
+}
